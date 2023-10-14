@@ -1,0 +1,112 @@
+body{
+    background-color:rgba(0, 0, 0, 0.4)
+
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #fff;
+    width: 600px;
+    height: 650px;
+    border-radius: 20px;
+    box-shadow: 0 10px rgb(110, 110, 110,.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+.fa-twitter{
+    color: rgb(29, 155, 240);
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+}
+.icon h1 {
+    color: black;
+    font-family: inherit;
+    font-family: sans-serif;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.fa-apple{
+    color: black;
+    padding-right: 7px;
+}
+.img{
+    
+    padding-right: 7px;
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 50%;
+}
+#c1{
+    margin-bottom: 15px;
+    width: 300px;
+    height: 40px;
+    background-color: #fff;
+    outline: none;
+    font-weight: bold;
+    border: 1px solid rgb(211, 210, 210);
+    border-radius: 20px;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+#c2{
+    margin-bottom: 15px;
+    width: 300px;
+    height: 40px;
+    background-color: #fff;
+    outline: none;
+    font-weight: bold;
+    border: 1px solid rgb(211, 210, 210);
+    border-radius: 20px;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.end{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.form-outline{
+    position: relative;
+    width: 300px;
+    height: 55px;
+    outline: none;
+    border: 1px solid rgb(211, 210, 210);
+    border-radius: 4px;
+    padding-left: 10px;
+}
+.btn-dark{
+    background-color: #121212;
+    color: #fff;
+    border-radius: 225px;
+    height: 35px;
+    margin-top: 15px;
+}
+.btn-light{
+    margin-top: 15px;
+    border-radius: 225px;
+    height: 35px;
+}
+.a{
+    text-decoration: none;
+    color: #00acee;
+}
+.p1{
+    font-weight: 700;
+    font-family: sans-serif;
+}
